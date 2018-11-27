@@ -20,6 +20,7 @@ export function authenticate(login : string, password: string){
 function execute(requestPromise: Promise<any>): Promise<any> {
     return requestPromise
         .then(response => {
+            console.log(response)
             return Promise.resolve(response.data)
         })
         .catch(({response})=>{
