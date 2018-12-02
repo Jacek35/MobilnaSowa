@@ -17,6 +17,7 @@ class HomeComponent extends Component<NavigateProps, any>{
             <View>
                 <Button title={"AuthComponent"} onPress={ev => {return this.props.navigation.navigate('Auth')}}/>
                 <Button title={"SearchComponent"} onPress={ev => {return this.props.navigation.navigate('SearchComponent')}}/>
+                <Button title={"PaymentInfo"} onPress={ev => {return this.props.navigation.navigate('PaymentInfo')}}/>
             </View>
         );
     }
@@ -31,3 +32,4 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF',
     }
 });
+//Tak robisz commity 
