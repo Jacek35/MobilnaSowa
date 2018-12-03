@@ -17,8 +17,10 @@ export const languages: { [key: string]: any } = {
     },
     ru_RU: {
         authcomponent: {
-            login:'',
-            zaloguj:
+            login: 'логин',
+            zaloguj: 'войти',
+            email: 'Email',
+            haslo: 'пароль'
         }
     }
 }
